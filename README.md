@@ -11,6 +11,13 @@ For example in a linux environment, type the following lines in a bash terminal 
    export COQBIN=/usr/local/bin/
    
    export COQDIR=/usr/local/
+   
+If you use opam, type the following lines instead:
+
+	export COQBIN=/home/username/.opam/RelationExtraction/bin/
+	export COQDIR=/home/username/.opam/RelationExtraction/
+	
+with username your username.
 
 
 ### Building the plugin
